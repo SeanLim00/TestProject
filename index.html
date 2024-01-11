@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean's Test Project</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f9fc; /* Light blue background */
+            color: #333;
+        }
+
+        header {
+            background-color: #1e2327; /* Dark blue header */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .landing-page {
+            text-align: center;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .item {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #c8d2db; /* Light gray border */
+            background-color: #ffffff; /* White background */
+            width: 100%;
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .item:hover {
+            box-shadow: 0 0 20px rgba(192, 192, 192, 0.8); /* Silver glow effect on hover */
+        }
+
+        .information-bar {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin: 0;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: silver; /* Silver hover color */
+        }
+
+        footer {
+            background-color: #1e2327; /* Dark blue footer */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .items {
+            display: flex;
+            justify-content: space-between; /* Added space-between to distribute columns evenly */
+            margin-top: 20px;
+        }
+
+        .item {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #c8d2db;
+            background-color: #ffffff;
+            width: 100%;
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>seanproject2024.xyz</h1>
+    </header>
+
+    <main>
+        <section class="landing-page">
+            <h2>Welcome to My Test Website!</h2>
+            <div class="items">
+                <a href="https://github.com/SeanLim00/TestProject/blob/main/Documentation_seanproject2024.xyz.docx" class="item">
+                    <h3>Documentation</h3>
+                    Click here to learn more on how I created the webpage on GitHub!
+                </a>
+                <a href="https://github.com/SeanLim00/TestProject/blob/main/SeanLim.pdf" class="item">
+                    <h3>About Me</h3>
+                    Click here to learn more about me, and my experience in the industry!   
+                </a>
+                <!-- New column for source code -->
+                <a href="https://github.com/SeanLim00/TestProject" class="item">
+                    <h3>Source Code</h3>
+                    Click here to view the source code on GitHub!
+                </a>
+                <!-- New column for tunnel.seanproject2024.xyz/secure -->
+                <a href="https://tunnel.seanproject2024.xyz/secure" class="item">
+                    <h3>Secure Tunnel</h3>
+                    Click here to access the secure tunnel.
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 seanproject2024.xyz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
